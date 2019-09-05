@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.0</TargetFramework>
+    <NoStdLib>true</NoStdLib>
+    <DisableImplicitFrameworkReferences>true</DisableImplicitFrameworkReferences>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <RunAnalyzersDuringBuild>false</RunAnalyzersDuringBuild>
+    <RunAnalyzersDuringLiveAnalysis>false</RunAnalyzersDuringLiveAnalysis>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!--<ProjectReference Include="..\CustomCoreLib\CustomCoreLib.csproj" />-->
+    <Reference Include="..\CustomCoreLib\bin\Debug\netstandard1.0\CustomCoreLib.dll" />
+  </ItemGroup>
+
+</Project>
