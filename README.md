@@ -11,3 +11,6 @@ The `.csproj` files are the key to getting it to work. I also had to add a coupl
 This builds solely through Visual Studio 2019. I have not tried a command line build.
 
 I have not tried executing the assemblies produced by this, as that's not my use case.
+
+How it looks in the IDE:
+![](./CustomCoreLibExample.jpg)
