@@ -10,8 +10,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <!--<ProjectReference Include="..\CustomCoreLib\CustomCoreLib.csproj" />-->
-    <Reference Include="..\CustomCoreLib\bin\Debug\netstandard1.0\CustomCoreLib.dll" />
+    <ProjectReference Include="..\CustomCoreLib\CustomCoreLib.csproj" />
   </ItemGroup>
 
 </Project>
