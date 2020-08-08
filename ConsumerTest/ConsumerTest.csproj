@@ -1,7 +1,8 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard1.0</TargetFramework>
+    <TargetFramework>net5.0</TargetFramework>
+    <OutputType>library</OutputType>
     <NoStdLib>true</NoStdLib>
     <DisableImplicitFrameworkReferences>true</DisableImplicitFrameworkReferences>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
@@ -11,6 +12,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\CustomCoreLib\CustomCoreLib.csproj" />
+    <ProjectReference Include="..\RegularLibrary\RegularLibrary.csproj" />
   </ItemGroup>
 
 </Project>
